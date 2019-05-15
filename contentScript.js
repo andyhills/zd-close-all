@@ -1,12 +1,7 @@
 window.addEventListener('load', function() {
-  console.log("This is working!");
 
   var tabList = document.getElementById("tabs"); // <ul> element
-  /*
-  var li = document.createElement("li");
-    li.appendChild(document.createTextNode("Four"));
-    ul.appendChild(li);
-  */
+
   var closeAll = document.createElement("li");
   closeAll.setAttribute("class", "tab ember-view");
   closeAll.style.paddingLeft = "5px";
