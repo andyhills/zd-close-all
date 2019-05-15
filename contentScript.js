@@ -21,7 +21,6 @@ window.addEventListener('load', function() {
 
   closeAll.addEventListener("click", function() {
     var closeButtons = document.querySelectorAll(".ember-view.close");
-    console.log("My ZD CLOSE BUTTONS", closeButtons);
     for(var n=0;n<closeButtons.length;n++) {
       closeButtons[n].click();
     }
